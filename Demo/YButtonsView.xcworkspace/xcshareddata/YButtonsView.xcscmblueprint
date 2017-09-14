@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B570BCF78E8C2A22541B8688133EFB6C340FAAEE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B570BCF78E8C2A22541B8688133EFB6C340FAAEE" : 9223372036854775807,
+    "BDC7379D820CF9A5559D1CCE6E42F7892BF4A42E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "57F940E0-842A-4E5E-AA1F-A83820287962",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B570BCF78E8C2A22541B8688133EFB6C340FAAEE" : "YBtnsView\/",
+    "BDC7379D820CF9A5559D1CCE6E42F7892BF4A42E" : "%E5%B7%A5%E4%BD%9C%E9%A1%B9%E7%9B%AE\/%E6%A0%87%E5%87%86%E7%94%B5%E5%95%86%E6%A8%A1%E6%9D%BF\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YButtonsView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YButtonsView.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/xiuxinxiuxing\/YButtonsView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B570BCF78E8C2A22541B8688133EFB6C340FAAEE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/csc10049\/muBan.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BDC7379D820CF9A5559D1CCE6E42F7892BF4A42E"
+    }
+  ]
+}

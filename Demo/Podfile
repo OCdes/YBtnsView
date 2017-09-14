@@ -1,0 +1,5 @@
+platform :ios, '8.0'
+target ‘YButtonsView’ do
+pod 'AFNetworking', '~> 2.6'
+pod 'ORStackView', '~> 3.0'
+end

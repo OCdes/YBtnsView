@@ -1,0 +1,13 @@
+//
+//  BtnSizeModel.m
+//  CloneFactoryApp
+//
+//  Created by xiuxinxiuxing on 2017/1/22.
+//  Copyright © 2017年 CSCHS. All rights reserved.
+//
+
+#import "BtnSizeModel.h"
+
+@implementation BtnSizeModel
+
+@end
