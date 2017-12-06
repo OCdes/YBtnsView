@@ -81,11 +81,8 @@
  */
 @property (nonatomic, assign) CGSize basicSize;
 
-/**
- 创建单例
- */
-+(instancetype)share;
-
 + (void)deallocInstance;
+
++ (instancetype)share;
 
 @end

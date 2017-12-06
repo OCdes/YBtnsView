@@ -13,7 +13,6 @@
 #import "BtnTitleModel.h"
 #import "BtnCollectionViewCell.h"
 #import "BtnsBtn.h"
-#import "Masonry.h"
 @interface YButtonsView () <UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateLeftAlignedLayout>
 
 @property (nonatomic, strong) UICollectionView *collection;
@@ -78,7 +77,7 @@ static NSString *identitfier = @"btnCellId";
         self.collection.dataSource = self;
         [self.collection registerClass:[BtnCollectionViewCell class] forCellWithReuseIdentifier:identitfier];
         [self addSubview:self.collection];
-        [self.collection mas_makeConstraints:^(MASConstraintMaker *make) {
+        [self.collection mas_remakeConstraints:^(MASConstraintMaker *make) {
             make.left.top.right.bottom.equalTo(self);
         }];
         [self.collection reloadData];
@@ -182,19 +181,13 @@ static NSString *identitfier = @"btnCellId";
 }
 
 - (CGFloat)realHeight {
-    CGFloat width = 0.f;
-    CGFloat rowW = 10.f;
+    CGFloat width = 0;
     for (BtnSizeModel *model in _sizeArr) {
-        width += model.width+20.0;
-        rowW += model.width+10;
-        if (rowW > Screen_Width) {
-            width += 10;
-            rowW = 10;
-        }
+        width += model.width+10;
     }
     NSInteger num = width/Screen_Width;
     num += (width-num*Screen_Width)?1:0;
-    return num * (_style.basicSize.height)+10;
+    return num * (_style.basicSize.height);
 }
 
 @end

@@ -45,11 +45,11 @@
     [self.btn setTitle:model.job_category_name forState:UIControlStateNormal];
     self.btn.selected = model.beSelected;
     if (model.beSelected) {
-        self.btn.layer.borderColor = _style.selectTitleColor.CGColor;
+        self.btn.layer.borderColor = _style.selectColor.CGColor;
         self.btn.layer.borderWidth = _style.btnBoderWith;
         self.btn.backgroundColor = _style.selectColor;
     } else {
-        self.btn.layer.borderColor = [UIColor blackColor].CGColor;
+        self.btn.layer.borderColor = _style.btnBoderColor.CGColor;
         self.btn.layer.borderWidth = _style.btnBoderWith;
         self.btn.backgroundColor = _style.normalColor;
     }
